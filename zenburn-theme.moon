@@ -208,17 +208,16 @@ return {
       line_width: 0.5
 
     search:
-      type: highlight.ROUNDED_RECTANGLE
-      foreground: black
-      foreground_alpha: 1
-      background: zenburn_yellow_m2
-      text_color: black
-      height: 'text'
+      type: highlight.UNDERLINE
+      foreground: zenburn_yellow_m1
+      background: zenburn_bg_p3
+      text_color: zenburn_yellow_m1
+      line_width: 2
 
     search_secondary:
-      type: flair.ROUNDED_RECTANGLE
-      background: yellow
-      text_color: grey_darkest
+      type: flair.RECTANGLE
+      background: zenburn_bg_p3
+      text_color: zenburn_yellow_m1
       height: 'text'
 
     replace_strikeout:
@@ -242,15 +241,17 @@ return {
       height: 'text'
 
     list_selection:
-      type: flair.RECTANGLE
-      background: current
-      background_alpha: 0.3
+      type: flair.UNDERLINE
+      foreground: zenburn_yellow
+      text_color: zenburn_yellow
+      line_width: 1
 
     list_highlight:
       type: highlight.UNDERLINE
-      foreground: white
-      text_color: white
-      line_width: 2
+      foreground: zenburn_yellow
+      text_color: zenburn_yellow
+      background: zenburn_green_m2
+      line_width: 1
 
     cursor:
       type: flair.RECTANGLE
