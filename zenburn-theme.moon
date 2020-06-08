@@ -230,12 +230,12 @@ return {
     brace_highlight:
       type: flair.RECTANGLE
       text_color: foreground
-      background: '#0064b1'
+      background: zenburn_green_p1
       height: 'text'
 
     brace_highlight_secondary:
       type: flair.RECTANGLE
-      foreground: '#0064b1'
+      foreground: zenburn_green_p1
       text_color: foreground
       line_width: 1
       height: 'text'
